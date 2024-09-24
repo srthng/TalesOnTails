@@ -1,18 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class ConfigMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private UIDocument document;
+    private Button botao;
+    private void Awake()
     {
-        
+        document = GetComponent<UIDocument>();
+        botao = document.rootVisualElement.Q<Button>("returnButton");
+        botao.RegisterCallback<ClickEvent>(onReturn);
     }
-
-    // Update is called once per frame
-    void Update()
+    void onReturn(ClickEvent evt)
     {
-        
+        SceneManager.LoadScene("StartMenu");
     }
 }
