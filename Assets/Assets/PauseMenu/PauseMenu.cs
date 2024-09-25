@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
@@ -14,14 +15,15 @@ public class PauseMenu : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             PauseScreen();
-        }
+        }   
     }
+
     void PauseScreen()
     {
         if (isPaused)
         {
             isPaused = false;
-            Time.timeScale = 1f;
+            Time.timeScale = 1f;    
             PausePanel.SetActive(false);
         }
 
@@ -31,9 +33,5 @@ public class PauseMenu : MonoBehaviour
             Time.timeScale = 0f;
             PausePanel.SetActive(true);
         }
-    }
-    void onMenu(ClickEvent evt)
-    {
-        SceneManager.LoadScene("StartMenu");
     }
 }
