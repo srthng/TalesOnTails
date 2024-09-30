@@ -11,7 +11,6 @@ public class PlayerScript : MonoBehaviour
     private float speed = 8f;
     private float jumpingPower = 16f;
     private bool isFacingRight = true;
-    public GameObject attackpoint;
     public float radius;
     public LayerMask enemies;
 
@@ -47,9 +46,6 @@ public class PlayerScript : MonoBehaviour
             localScale.x *= -1f;
             transform.localScale = localScale;
         }
-
-
-
     }
 
   

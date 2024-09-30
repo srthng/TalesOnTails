@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -247,8 +246,8 @@ Transform:
   m_GameObject: {fileID: 246656869}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.51912004, y: -176.71094, z: -3708}
-  m_LocalScale: {x: 937.097, y: 54.840923, z: 41.2}
+  m_LocalPosition: {x: -0.90997314, y: -180.72, z: -3708}
+  m_LocalScale: {x: 665.33887, y: 38.937054, z: 29.251999}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1212936953}
@@ -266,7 +265,7 @@ GameObject:
   - component: {fileID: 501355280}
   - component: {fileID: 501355279}
   - component: {fileID: 501355278}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -418,8 +417,8 @@ Transform:
   m_GameObject: {fileID: 501355277}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 373.27203, y: -106.296, z: -3708}
-  m_LocalScale: {x: 41.2, y: 41.2, z: 41.2}
+  m_LocalPosition: {x: 263.80005, y: -130.70999, z: -3708}
+  m_LocalScale: {x: 29.251999, y: 29.251999, z: 29.251999}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1212936953}
@@ -485,7 +484,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d3785a7aff0184ebd0703f6aa17bba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PausePanel: {fileID: 610121440}
+  isPaused: 0
+  pauseMenuscript: {fileID: 0}
 --- !u!1 &1142921832
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,6 +672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f16edfae7eaf234eb504d10b666bc0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPaused: 0
   PausePanel: {fileID: 610121440}
 --- !u!1 &1744107376
 GameObject:
@@ -686,9 +687,9 @@ GameObject:
   - component: {fileID: 1744107377}
   - component: {fileID: 1744107380}
   - component: {fileID: 1744107381}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -789,8 +790,8 @@ Transform:
   m_GameObject: {fileID: 1744107376}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -403.76, y: -123.600006, z: -3708}
-  m_LocalScale: {x: 41.2, y: 41.2, z: 41.2}
+  m_LocalPosition: {x: -288, y: -143, z: -3708}
+  m_LocalScale: {x: 29.251999, y: 29.251999, z: 29.251999}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1994694896}
@@ -840,11 +841,10 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  attackpoint: {fileID: 0}
   radius: 0
   enemies:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
 --- !u!1 &1877975622
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,7 +946,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1994694896}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -962,7 +962,7 @@ Transform:
   m_GameObject: {fileID: 1994694895}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.17, y: -0.58, z: 0}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

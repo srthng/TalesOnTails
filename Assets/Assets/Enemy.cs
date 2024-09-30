@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    private GameObject Player;
+    private float speed = 8f;
+    private float PlayerPositionX;
+    private float PlayerPositionY;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-
-        
-
+        PlayerPositionX = Player.transform.position.x;
+        PlayerPositionY = Player.transform.position.y;
+        Debug.Log(PlayerPositionX);
+        Debug.Log(PlayerPositionY);
     }
 }

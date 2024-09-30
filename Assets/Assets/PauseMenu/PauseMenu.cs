@@ -14,24 +14,26 @@ public class PauseMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            PauseScreen();
-        }   
+            if(!isPaused)
+            {
+                PauseGame();
+            }
+            else
+            {
+                ResumeGame();
+            }   
+        }
     }
-
-    void PauseScreen()
+    public void PauseGame()
     {
-        if (isPaused)
-        {
-            isPaused = false;
-            Time.timeScale = 1f;    
-            PausePanel.SetActive(false);
-        }
-
-        else
-        {
-            isPaused = true;
-            Time.timeScale = 0f;
-            PausePanel.SetActive(true);
-        }
+        isPaused = true;
+        Time.timeScale = 0f;
+        PausePanel.SetActive(true);
+    }
+    public void ResumeGame()
+    {
+        isPaused = false;
+        Time.timeScale = 1f;
+        PausePanel.SetActive(false);
     }
 }
