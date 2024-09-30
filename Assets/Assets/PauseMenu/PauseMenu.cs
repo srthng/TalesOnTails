@@ -7,7 +7,7 @@ using UnityEngine.UIElements;
 
 public class PauseMenu : MonoBehaviour
 {
-    private bool isPaused;
+    public bool isPaused;
     public GameObject PausePanel;
 
     void Update()

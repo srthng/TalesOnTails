@@ -10,16 +10,36 @@ public class PauseScript : MonoBehaviour
 
     private UIDocument document;
     private Button botao;
+    public bool isPaused;
+    public GameObject PausePanel;
+
 
     void Awake()
     {
         document = GetComponent<UIDocument>();
+        botao = document.rootVisualElement.Q<Button>("ResumeButton");
+        botao.RegisterCallback<ClickEvent>(onResume);
         botao = document.rootVisualElement.Q<Button>("MainButton");
         botao.RegisterCallback<ClickEvent>(onMenu);
+        botao = document.rootVisualElement.Q<Button>("ExitButton");
+        botao.RegisterCallback<ClickEvent>(onExit);
     }
 
-    public void onMenu(ClickEvent evt)
+    void onResume(ClickEvent evt)
     {
+        Debug.Log("Resume");
+        isPaused = false;
+        Time.timeScale = 1f;
+        PausePanel.SetActive(false);
+    }
+    void onMenu(ClickEvent evt)
+    {
+        Debug.Log("Menu");
         SceneManager.LoadScene("StartMenu");
+    }
+    void onExit(ClickEvent evt) 
+    {
+        Debug.Log("Exit");
+        Application.Quit();
     }
 }
