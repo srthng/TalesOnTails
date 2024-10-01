@@ -4,16 +4,32 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    private GameObject Player;
+    public GameObject Player;
     private float speed = 8f;
-    private float PlayerPositionX;
-    private float PlayerPositionY;
+    public GameObject EnemyVision;
+    public bool PlayerVisible = false;
 
     private void Update()
     {
-        PlayerPositionX = Player.transform.position.x;
-        PlayerPositionY = Player.transform.position.y;
-        Debug.Log(PlayerPositionX);
-        Debug.Log(PlayerPositionY);
+        if (PlayerVisible)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, speed * Time.deltaTime);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject == Player)
+        {
+            PlayerVisible = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject == Player)
+        {
+            PlayerVisible = false;
+        }
     }
 }
