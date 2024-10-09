@@ -14,7 +14,7 @@ TagManager:
   - Ground
   - Enemy
   - Player
-  - 
+  - Fence
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1580946333
+    locked: 0
+  - name: Wall
+    uniqueID: 1723234067
     locked: 0
