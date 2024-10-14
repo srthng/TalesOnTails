@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Interact : MonoBehaviour
 {
-    private BoxCollider2D hitbox;
-
-    private void Start()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        hitbox = GetComponent<BoxCollider2D>();
+        if (other.gameObject.CompareTag("Player")){
+            Destroy(other.gameObject);
+        }
     }
 }
