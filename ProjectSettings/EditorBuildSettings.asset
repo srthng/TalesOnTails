@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ConfigMenu.unity
     guid: a172c7eb3ac0cc449940258f1a8aa6d4
+  - enabled: 1
+    path: Assets/Scenes/Boat/BoatDeck.unity
+    guid: acefac18d11e65140abd869dc3e67172
+  - enabled: 1
+    path: Assets/Scenes/Boat/InsideCabin.unity
+    guid: efef050a1439ba14ea3a11185da9983f
   m_configObjects: {}
