@@ -47,7 +47,4 @@ public class PlayerScript : MonoBehaviour
             transform.localScale = localScale;
         }
     }
-
-  
-   
 }
