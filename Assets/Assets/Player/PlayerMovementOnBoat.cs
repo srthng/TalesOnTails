@@ -8,6 +8,9 @@ public class PlayerMovementOnBoat : MonoBehaviour
     private Vector2 movement;
     private Rigidbody2D rb;
     private float speed = 5f;
+    private bool ItsMoving;
+    public Sprite LorisWalk;
+    public Animator anim;
 
     void Start()
     {
@@ -20,11 +23,19 @@ public class PlayerMovementOnBoat : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
 
         movement = movement.normalized;
+
+        if (movement.x != 0 || movement.y != 0)
+        {
+            anim.SetBool("IsWalking", true);
+        }
+        else
+        {
+            anim.SetBool("IsWalking", false);
+        }
     }
 
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
     }
-
 }
