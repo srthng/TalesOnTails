@@ -1,11 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using static Unity.Collections.AllocatorManager;
 
-public class Interact : MonoBehaviour
+public class DownMast : MonoBehaviour
 {
     private Transform playerTransform;
     public GameObject InteractSquare;
@@ -31,15 +29,15 @@ public class Interact : MonoBehaviour
     }
 
     private void OnTriggerStay2D(Collider2D other)
-    {   
+    {
         if (Input.GetKeyDown(KeyCode.E) && other.gameObject.tag == "Player")
         {
-            EnterCabin();
+            DownTheMast();
         }
     }
-        
-    private void EnterCabin()
+
+    private void DownTheMast()
     {
-        SceneManager.LoadScene("InsideCabin");
+        SceneManager.LoadScene("BoatDeck");
     }
 }
