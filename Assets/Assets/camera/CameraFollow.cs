@@ -8,8 +8,18 @@ public class CameraFollow : MonoBehaviour
     public GameObject CameraLimit; 
     public float smoothSpeed = 0.125f;
     public Vector3 offset;
+    public BoxCollider2D playerCollider;
+    public BoxCollider2D limitCollider;
 
-    void LateUpdate()
+    private void Start()
+    {
+        playerCollider = GetComponent<BoxCollider2D>();
+        limitCollider = GetComponent<BoxCollider2D>();
+    }
+
+    
+
+    private void LateUpdate()
     {
         if (player.position.y != CameraLimit.transform.position.y)
         {
@@ -17,7 +27,7 @@ public class CameraFollow : MonoBehaviour
             Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
             transform.position = smoothedPosition;
         }
-        else if (player.GetComponent<Collider2D>)
+        else
         {
             Debug.Log("a");
         }

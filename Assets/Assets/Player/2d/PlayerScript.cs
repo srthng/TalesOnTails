@@ -10,14 +10,24 @@ public class PlayerScript : MonoBehaviour
     private float horizontal;
     private float speed = 8f;
     private float jumpingPower = 16f;
+    private int PlayerLife;
     private bool isFacingRight = true;
     public float radius;
     public LayerMask enemies;
+    public Animator anim;
 
     private void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
-        if (Input.GetButtonDown("Jump") && isGrounded())
+        if (horizontal == -1)
+        {
+            Flip();
+        }
+        else if (horizontal == 1) 
+        {
+            Flip();
+        }
+        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
 
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
@@ -26,17 +36,36 @@ public class PlayerScript : MonoBehaviour
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f) {
             rb.velocity = new Vector2 (rb.velocity.x, rb.velocity.y * 0.5f);
         }
+        if (horizontal > 0)
+        {
+            anim.SetBool("IsWalking", true);
+        }
+        if (horizontal < 0)
+        {
+            anim.SetBool("IsWalking", true);
+        }
+        if(horizontal == 0)
+        {
+            anim.SetBool("IsWalking", false);
+        }
+
+
+
     }
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
     }
 
-    private bool isGrounded()
+    private bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
 
+    private void DamagePlayer()
+    {
+
+    }
     private void Flip()
     {
         if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)

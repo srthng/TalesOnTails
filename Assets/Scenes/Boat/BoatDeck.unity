@@ -2188,7 +2188,6 @@ GameObject:
   - component: {fileID: 2080913015}
   - component: {fileID: 2080913014}
   - component: {fileID: 2080913017}
-  - component: {fileID: 2080913018}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2286,33 +2285,8 @@ MonoBehaviour:
   CameraLimit: {fileID: 1281072518}
   smoothSpeed: 12
   offset: {x: 0, y: 0, z: -10}
---- !u!50 &2080913018
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2080913013}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  playerCollider: {fileID: 1031902808}
+  limitCollider: {fileID: 1281072522}
 --- !u!1 &2109238134 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 122367420947341096, guid: ea38c570b5a5fd240bba03a866ca07a2, type: 3}
