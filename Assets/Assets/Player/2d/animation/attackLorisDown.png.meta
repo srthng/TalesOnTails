@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fbc098c0621dc6f4ba046d9f6afb0b3b
+guid: 3727ac77b792ee049ac3782fbce47b1d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IdleAnimLorisArmadoMochila_0
+      name: attackLorisDown_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 55
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61800fba3db5679469b4f3fd99cee6eb
-      internalID: 1973276010
+      spriteID: ff8a682ec9a138043957a6e461919b84
+      internalID: 634727782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleAnimLorisArmadoMochila_1
+      name: attackLorisDown_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 55
         y: 0
-        width: 32
-        height: 32
+        width: 55
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15d49c31f8ba280468b644b041eaaf7c
-      internalID: 1184031848
+      spriteID: 24ab9077acb90eb429dfded35e39a9df
+      internalID: -1776666561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleAnimLorisArmadoMochila_2
+      name: attackLorisDown_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 110
         y: 0
-        width: 32
-        height: 32
+        width: 55
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f2f49883921b0d41b7f933fcc17a5eb
-      internalID: 1235261005
+      spriteID: b59a7f0c7f2355741b265e408f5a21ea
+      internalID: 1322953053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleAnimLorisArmadoMochila_3
+      name: attackLorisDown_3
       rect:
         serializedVersion: 2
-        x: 96
+        x: 165
         y: 0
-        width: 32
-        height: 32
+        width: 55
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 482ec601b96c3074a81ec31ff9967711
-      internalID: -1314038198
+      spriteID: 735ac59b4d9e1de40bf49c4f494b1b53
+      internalID: 1681109203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleAnimLorisArmadoMochila_4
+      name: attackLorisDown_4
       rect:
         serializedVersion: 2
-        x: 128
+        x: 220
         y: 0
-        width: 32
-        height: 32
+        width: 55
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db517d110a3d5eb419dcad9477660591
-      internalID: -1821828205
+      spriteID: 123048166e749ec44906185e451ca755
+      internalID: -915602101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleAnimLorisArmadoMochila_5
+      name: attackLorisDown_5
       rect:
         serializedVersion: 2
-        x: 160
+        x: 275
         y: 0
-        width: 32
-        height: 32
+        width: 55
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,134 +255,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbcf94ae43baa8545be7cb6cb08e80be
-      internalID: -1695483262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleAnimLorisArmadoMochila_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97b1fe366a582bb43a1bd4ac8d5b8670
-      internalID: 1811923436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleAnimLorisArmadoMochila_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d987175c647f0924b92f8c2c342d7539
-      internalID: 1902297931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleAnimLorisArmadoMochila_8
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26d38fb5bf320a941886e7750f42eabb
-      internalID: -88553876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleAnimLorisArmadoMochila_9
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57c9f19d74dc40946814d2a4c229aaed
-      internalID: 67837684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleAnimLorisArmadoMochila_10
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ae8d38addc9bde478ec61bd2cbe5faf
-      internalID: 1388653729
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleAnimLorisArmadoMochila_11
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54de8bf11deceb440a108c38951b50dc
-      internalID: -1048589783
+      spriteID: 3dd199aebb3022a4ea2ceafd0bfde5a2
+      internalID: -1016204870
       vertices: []
       indices: 
       edges: []
@@ -398,18 +272,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      IdleAnimLorisArmadoMochila_0: 1973276010
-      IdleAnimLorisArmadoMochila_1: 1184031848
-      IdleAnimLorisArmadoMochila_10: 1388653729
-      IdleAnimLorisArmadoMochila_11: -1048589783
-      IdleAnimLorisArmadoMochila_2: 1235261005
-      IdleAnimLorisArmadoMochila_3: -1314038198
-      IdleAnimLorisArmadoMochila_4: -1821828205
-      IdleAnimLorisArmadoMochila_5: -1695483262
-      IdleAnimLorisArmadoMochila_6: 1811923436
-      IdleAnimLorisArmadoMochila_7: 1902297931
-      IdleAnimLorisArmadoMochila_8: -88553876
-      IdleAnimLorisArmadoMochila_9: 67837684
+      attackLorisDown_0: 634727782
+      attackLorisDown_1: -1776666561
+      attackLorisDown_2: 1322953053
+      attackLorisDown_3: 1681109203
+      attackLorisDown_4: -915602101
+      attackLorisDown_5: -1016204870
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

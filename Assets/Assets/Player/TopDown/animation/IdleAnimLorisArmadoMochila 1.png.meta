@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ab01ce45ea4ba6b4586cf0323d6ac09d
+guid: 731607402d08af54ab816c268c2c0601
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,7 +136,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LorisWalk-Sheet_0
+      name: IdleAnimLorisArmadoMochila 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -150,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74a5e59330c2a4d4186d95c43267b216
-      internalID: -1202282554
+      spriteID: a4f57bfd5986368419b6512a27969303
+      internalID: -1713997760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LorisWalk-Sheet_1
+      name: IdleAnimLorisArmadoMochila 1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -171,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1699067f702064b438e5458dda6d738d
-      internalID: 1927950656
+      spriteID: 9a2a2cffce0531a4f82a75b8394b205b
+      internalID: 1087603505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LorisWalk-Sheet_2
+      name: IdleAnimLorisArmadoMochila 1_2
       rect:
         serializedVersion: 2
         x: 64
@@ -192,14 +192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0e444fedc791014d930c39d8835eb75
-      internalID: 1405485479
+      spriteID: 2f68dd4a372c5e342b2281e4317cc2e0
+      internalID: 1861414264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LorisWalk-Sheet_3
+      name: IdleAnimLorisArmadoMochila 1_3
       rect:
         serializedVersion: 2
         x: 96
@@ -213,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73d700135c1435743b9dc882064f455a
-      internalID: 1671972897
+      spriteID: 7f13736750b270148805afef63e984dc
+      internalID: -1550520816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LorisWalk-Sheet_4
+      name: IdleAnimLorisArmadoMochila 1_4
       rect:
         serializedVersion: 2
         x: 128
@@ -234,14 +234,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c7164e8a32ffb0449a2cc4df48a78b9
-      internalID: 52818337
+      spriteID: 7847aa3f4fb7e7146aedb4629b29a720
+      internalID: -1907375560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LorisWalk-Sheet_5
+      name: IdleAnimLorisArmadoMochila 1_5
       rect:
         serializedVersion: 2
         x: 160
@@ -255,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bedc558a977f5f468cf33a96e050c41
-      internalID: 1653736774
+      spriteID: 3ceda9887809f0342afde86dc59b7226
+      internalID: 1904485766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LorisWalk-Sheet_6
+      name: IdleAnimLorisArmadoMochila 1_6
       rect:
         serializedVersion: 2
         x: 192
@@ -276,14 +276,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78639b9b46d1f7a409c25fad6ca0e62c
-      internalID: 1992915841
+      spriteID: 75c992ec81f001941ac40694f4669910
+      internalID: -503658063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LorisWalk-Sheet_7
+      name: IdleAnimLorisArmadoMochila 1_7
       rect:
         serializedVersion: 2
         x: 224
@@ -297,14 +297,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e2fee661d199814dacc5c12bad4d5fa
-      internalID: -1362083834
+      spriteID: b85e6832bba4dc0428682b7c32b20a17
+      internalID: 702500301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LorisWalk-Sheet_8
+      name: IdleAnimLorisArmadoMochila 1_8
       rect:
         serializedVersion: 2
         x: 256
@@ -318,14 +318,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3aa7be2d1bb0d84586a1e6fd1203a1b
-      internalID: -195368466
+      spriteID: 4b27041c627fde0428f9e1cce21f61cd
+      internalID: -681484138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LorisWalk-Sheet_9
+      name: IdleAnimLorisArmadoMochila 1_9
       rect:
         serializedVersion: 2
         x: 288
@@ -339,14 +339,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11cdce5406847ad40918ca3959dcc3e2
-      internalID: -1232874656
+      spriteID: c9e325542649a3e41bd6ae031f113cf2
+      internalID: -844007766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LorisWalk-Sheet_10
+      name: IdleAnimLorisArmadoMochila 1_10
       rect:
         serializedVersion: 2
         x: 320
@@ -360,14 +360,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f90a149d1df84548be63e2a2c644b4d
-      internalID: 810226298
+      spriteID: 5d4ec458a482beb44b338317a986025d
+      internalID: -532397707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LorisWalk-Sheet_11
+      name: IdleAnimLorisArmadoMochila 1_11
       rect:
         serializedVersion: 2
         x: 352
@@ -381,14 +381,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e493d544619cf245b9dad63b4cf830f
-      internalID: -1126684918
+      spriteID: fafab94dde72cff45a404d6a0913e1e5
+      internalID: -562575001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LorisWalk-Sheet_12
+      name: IdleAnimLorisArmadoMochila 1_12
       rect:
         serializedVersion: 2
         x: 384
@@ -402,92 +402,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59497ec830738434e9366eb9becd291e
-      internalID: -2033001713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LorisWalk-Sheet_13
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba6919c7d3c6d6645b0ee37a9affcb7f
-      internalID: -1152914694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LorisWalk-Sheet_14
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ef15f2c03dae4141a2f9e4b72d283d5
-      internalID: 710074076
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LorisWalk-Sheet_15
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 951939fc0ef755945a42f80bb3748683
-      internalID: 1543551119
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LorisWalk-Sheet_16
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f823bc2621200941b52b046c9f4b650
-      internalID: -1396303996
+      spriteID: de99d881f219a1e4197853c4b166fcf9
+      internalID: 1066257000
       vertices: []
       indices: 
       edges: []
@@ -503,23 +419,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      LorisWalk-Sheet_0: -1202282554
-      LorisWalk-Sheet_1: 1927950656
-      LorisWalk-Sheet_10: 810226298
-      LorisWalk-Sheet_11: -1126684918
-      LorisWalk-Sheet_12: -2033001713
-      LorisWalk-Sheet_13: -1152914694
-      LorisWalk-Sheet_14: 710074076
-      LorisWalk-Sheet_15: 1543551119
-      LorisWalk-Sheet_16: -1396303996
-      LorisWalk-Sheet_2: 1405485479
-      LorisWalk-Sheet_3: 1671972897
-      LorisWalk-Sheet_4: 52818337
-      LorisWalk-Sheet_5: 1653736774
-      LorisWalk-Sheet_6: 1992915841
-      LorisWalk-Sheet_7: -1362083834
-      LorisWalk-Sheet_8: -195368466
-      LorisWalk-Sheet_9: -1232874656
+      IdleAnimLorisArmadoMochila 1_0: -1713997760
+      IdleAnimLorisArmadoMochila 1_1: 1087603505
+      IdleAnimLorisArmadoMochila 1_10: -532397707
+      IdleAnimLorisArmadoMochila 1_11: -562575001
+      IdleAnimLorisArmadoMochila 1_12: 1066257000
+      IdleAnimLorisArmadoMochila 1_2: 1861414264
+      IdleAnimLorisArmadoMochila 1_3: -1550520816
+      IdleAnimLorisArmadoMochila 1_4: -1907375560
+      IdleAnimLorisArmadoMochila 1_5: 1904485766
+      IdleAnimLorisArmadoMochila 1_6: -503658063
+      IdleAnimLorisArmadoMochila 1_7: 702500301
+      IdleAnimLorisArmadoMochila 1_8: -681484138
+      IdleAnimLorisArmadoMochila 1_9: -844007766
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
