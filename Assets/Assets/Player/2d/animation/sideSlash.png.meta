@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f949bcc60f079ac438184e324760d1b3
+guid: cca223bd4a9ff904eac902396bdbff15
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,12 +136,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: attackLorisSide_0
+      name: sideSlash_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 19
+        width: 21
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -150,19 +150,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b768e8ea6cdcab4f8b34841f0c4b9a7
-      internalID: 394468051
+      spriteID: b684f8b2d85a066499d1bacce3ac11cb
+      internalID: 748370361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attackLorisSide_1
+      name: sideSlash_1
       rect:
         serializedVersion: 2
-        x: 19
+        x: 21
         y: 0
-        width: 19
+        width: 21
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -171,19 +171,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63800eaff6cd5844dbef687b665bdd90
-      internalID: 1317285958
+      spriteID: 889b2cc3fe2a5b54da7ab366066c427c
+      internalID: -388234082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attackLorisSide_2
+      name: sideSlash_2
       rect:
         serializedVersion: 2
-        x: 38
+        x: 42
         y: 0
-        width: 19
+        width: 21
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -192,19 +192,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6518be5450677249902fc8826c5e064
-      internalID: -2086133057
+      spriteID: 934ba859df61995499589d838edf858a
+      internalID: 945465029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attackLorisSide_3
+      name: sideSlash_3
       rect:
         serializedVersion: 2
-        x: 57
+        x: 63
         y: 0
-        width: 19
+        width: 21
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -213,19 +213,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e057fea7d0bf1d94c99de9add3124e38
-      internalID: -1766866502
+      spriteID: 598350663b423d54d92866cd3a8d5ec5
+      internalID: -1537727912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attackLorisSide_4
+      name: sideSlash_4
       rect:
         serializedVersion: 2
-        x: 76
+        x: 84
         y: 0
-        width: 19
+        width: 21
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -234,29 +234,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4229c4e2f750bdd4a85e479591d7d551
-      internalID: 901720824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attackLorisSide_5
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 0
-        width: 19
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2f56da9eb0d85c4195bb413cd40e8af
-      internalID: 1974184659
+      spriteID: e0e15b26e3cac394db85ff12a6c84c6b
+      internalID: 2002847931
       vertices: []
       indices: 
       edges: []
@@ -272,12 +251,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      attackLorisSide_0: 394468051
-      attackLorisSide_1: 1317285958
-      attackLorisSide_2: -2086133057
-      attackLorisSide_3: -1766866502
-      attackLorisSide_4: 901720824
-      attackLorisSide_5: 1974184659
+      sideSlash_0: 748370361
+      sideSlash_1: -388234082
+      sideSlash_2: 945465029
+      sideSlash_3: -1537727912
+      sideSlash_4: 2002847931
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
