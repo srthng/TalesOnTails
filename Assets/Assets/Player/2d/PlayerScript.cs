@@ -63,6 +63,9 @@ public class PlayerScript : MonoBehaviour
                 StartCoroutine(PerformDodge());
             }
         }
+
+
+
         if(Input.GetKeyDown(KeyCode.L)) 
         {
             Debug.Log("Health" + playerHealth);
