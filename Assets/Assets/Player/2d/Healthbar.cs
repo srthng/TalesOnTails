@@ -21,11 +21,10 @@ public class Healthbar : MonoBehaviour
             healthSlider.value = health;
         }
         if (Input.GetKeyDown(KeyCode.Space)){
-            takedamage(10);
-            Debug.Log("a");
+            takeDamage(10);
         }
     }
-    void takedamage(float damage)
+    void takeDamage(float damage)
     {
         health -= damage;
     }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cca223bd4a9ff904eac902396bdbff15
+guid: a3c38cfeacedb0247a327b5e04cd93cc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,56 +93,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sideSlash_0
+      name: spiderEnemyAttack_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 20
-        height: 28
+        width: 32
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b684f8b2d85a066499d1bacce3ac11cb
-      internalID: 748370361
+      spriteID: 1421f17d94863e147b00810ac1f30db2
+      internalID: -550286917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sideSlash_1
+      name: spiderEnemyAttack_1
       rect:
         serializedVersion: 2
-        x: 20
+        x: 32
         y: 0
-        width: 20
-        height: 28
+        width: 32
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 889b2cc3fe2a5b54da7ab366066c427c
-      internalID: -388234082
+      spriteID: 1bb3ab399373c424bad4230074eebfd0
+      internalID: 1811858836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sideSlash_2
+      name: spiderEnemyAttack_2
       rect:
         serializedVersion: 2
-        x: 40
+        x: 64
         y: 0
-        width: 20
-        height: 28
+        width: 32
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 934ba859df61995499589d838edf858a
-      internalID: 945465029
+      spriteID: 19dfb69b42b02f747b9617bd11d96083
+      internalID: -1606738309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sideSlash_3
+      name: spiderEnemyAttack_3
       rect:
         serializedVersion: 2
-        x: 60
+        x: 96
         y: 0
-        width: 20
-        height: 28
+        width: 32
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 598350663b423d54d92866cd3a8d5ec5
-      internalID: -1537727912
+      spriteID: 5da0c4668d41d7144b3285d30531caf6
+      internalID: 1308351773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sideSlash_4
+      name: spiderEnemyAttack_4
       rect:
         serializedVersion: 2
-        x: 80
+        x: 128
         y: 0
-        width: 20
-        height: 28
+        width: 32
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,8 +195,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0e15b26e3cac394db85ff12a6c84c6b
-      internalID: 2002847931
+      spriteID: 35c2a6103e52cfa4781c6baf56f2e06f
+      internalID: 1118917378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiderEnemyAttack_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb869e95a0e3f64aaf8dded0d825a29
+      internalID: -1063186576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiderEnemyAttack_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19142b69b6bde446b3e6d0cd462eb7a
+      internalID: 38337269
       vertices: []
       indices: 
       edges: []
@@ -251,11 +254,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sideSlash_0: 748370361
-      sideSlash_1: -388234082
-      sideSlash_2: 945465029
-      sideSlash_3: -1537727912
-      sideSlash_4: 2002847931
+      spiderEnemyAttack_0: -550286917
+      spiderEnemyAttack_1: 1811858836
+      spiderEnemyAttack_2: -1606738309
+      spiderEnemyAttack_3: 1308351773
+      spiderEnemyAttack_4: 1118917378
+      spiderEnemyAttack_5: -1063186576
+      spiderEnemyAttack_6: 38337269
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

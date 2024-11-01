@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cca223bd4a9ff904eac902396bdbff15
+guid: 95b171aadc7ca894e9663ffab110e174
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,149 +93,131 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sideSlash_0
+      name: LorisDodge_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 20
-        height: 28
+        width: 32
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b684f8b2d85a066499d1bacce3ac11cb
-      internalID: 748370361
+      spriteID: 32898a2e650c20b4aa0cbbafd50b2284
+      internalID: 1072160598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sideSlash_1
+      name: LorisDodge_1
       rect:
         serializedVersion: 2
-        x: 20
+        x: 32
         y: 0
-        width: 20
-        height: 28
+        width: 32
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 889b2cc3fe2a5b54da7ab366066c427c
-      internalID: -388234082
+      spriteID: 67fcd1f26a3c4b34b8d1b3143961c41e
+      internalID: -1285528252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sideSlash_2
+      name: LorisDodge_2
       rect:
         serializedVersion: 2
-        x: 40
+        x: 64
         y: 0
-        width: 20
-        height: 28
+        width: 32
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 934ba859df61995499589d838edf858a
-      internalID: 945465029
+      spriteID: e7e55946ea04f6e41bdf066acba7475f
+      internalID: -671911431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sideSlash_3
+      name: LorisDodge_3
       rect:
         serializedVersion: 2
-        x: 60
+        x: 96
         y: 0
-        width: 20
-        height: 28
+        width: 32
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 598350663b423d54d92866cd3a8d5ec5
-      internalID: -1537727912
+      spriteID: a1a910d95cb14b643ab800500b64621c
+      internalID: 441006168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sideSlash_4
+      name: LorisDodge_4
       rect:
         serializedVersion: 2
-        x: 80
+        x: 128
         y: 0
-        width: 20
-        height: 28
+        width: 32
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0e15b26e3cac394db85ff12a6c84c6b
-      internalID: 2002847931
+      spriteID: f298dd9f0a4b4494e94e912918a144fe
+      internalID: -361494236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LorisDodge_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc0f391fbc365e4a8a5b461132c9573
+      internalID: -1794314936
       vertices: []
       indices: 
       edges: []
@@ -251,11 +233,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sideSlash_0: 748370361
-      sideSlash_1: -388234082
-      sideSlash_2: 945465029
-      sideSlash_3: -1537727912
-      sideSlash_4: 2002847931
+      LorisDodge_0: 1072160598
+      LorisDodge_1: -1285528252
+      LorisDodge_2: -671911431
+      LorisDodge_3: 441006168
+      LorisDodge_4: -361494236
+      LorisDodge_5: -1794314936
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
