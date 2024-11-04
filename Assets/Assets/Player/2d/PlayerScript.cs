@@ -10,8 +10,8 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private CapsuleCollider2D ColliderSlash;
     [SerializeField] private BoxCollider2D box2d;
 
-    [SerializeField] private Healthbar healthbar;
-    [SerializeField] private StaminaBar staminabar;
+    public Healthbar healthbar;
+    public StaminaBar staminabar;
 
     public float playerHealth;
     public float playerStamina;
@@ -73,6 +73,27 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
+    public void TakeDamage(float damage)
+    {
+        if (healthbar != null)
+        {
+            healthbar.TakeDamage(damage);
+            playerHealth = healthbar.health;
+        }
+
+        Debug.Log("Player Health: " + playerHealth);
+
+        if (playerHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        Debug.Log("Player died");
+    }
+
     private IEnumerator PerformAttack()
     {
         ColliderSlash.enabled = true;
@@ -89,17 +110,22 @@ public class PlayerScript : MonoBehaviour
 
     private IEnumerator PerformDodge()
     {
-        box2d.enabled = false;
+        Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Enemy"), true);
+
         rb.constraints = RigidbodyConstraints2D.FreezePositionY;
         anim.SetBool("IsWalking", false);
         anim.SetBool("IsDodging", true);
         float dodgeDirection = isFacingRight ? 1f : -1f;
         rb.velocity = new Vector2(dodgeDirection * dodgeSpeed, rb.velocity.y);
+
         yield return new WaitForSeconds(0.3f);
+
         rb.constraints = RigidbodyConstraints2D.None;
         anim.SetBool("IsDodging", false);
-        box2d.enabled = true;
+
+        Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Enemy"), false);
     }
+
 
     private void FixedUpdate()
     {

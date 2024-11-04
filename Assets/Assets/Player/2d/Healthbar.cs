@@ -12,21 +12,26 @@ public class Healthbar : MonoBehaviour
     private void Start()
     {
         health = maxHealth;
+        healthSlider.maxValue = maxHealth;
+        healthSlider.value = health;
     }
 
     private void Update()
     {
-        if (healthSlider.value != health)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            healthSlider.value = health;
+            TakeDamage(10);
         }
-        if (Input.GetKeyDown(KeyCode.Space)){
-            takeDamage(10);
-        }
-    }
-    void takeDamage(float damage)
-    {
-        health -= damage;
     }
 
+    public void SetHealth(float newHealth)
+    {
+        health = Mathf.Clamp(newHealth, 0, maxHealth);
+        healthSlider.value = health;
+    }
+
+    public void TakeDamage(float damage)
+    {
+        SetHealth(health - damage);
+    }
 }

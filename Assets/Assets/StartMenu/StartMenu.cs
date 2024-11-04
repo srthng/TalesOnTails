@@ -14,19 +14,12 @@ public class StartMenu : MonoBehaviour
         document = GetComponent<UIDocument>();
         botao = document.rootVisualElement.Q<Button>("PlayButton");
         botao.RegisterCallback<ClickEvent>(onPlay);
-        botao = document.rootVisualElement.Q<Button>("ConfigButton");
-        botao.RegisterCallback<ClickEvent>(onConfig);
         botao = document.rootVisualElement.Q<Button>("ExitButton");
         botao.RegisterCallback<ClickEvent>(onExit);
     }
     void onPlay(ClickEvent evt)
     {
         SceneManager.LoadScene("MainGame");
-    }
-
-    void onConfig(ClickEvent evt)
-    {
-        SceneManager.LoadScene("ConfigMenu");
     }
 
     void onExit(ClickEvent evt)
