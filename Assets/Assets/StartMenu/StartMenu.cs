@@ -17,6 +17,13 @@ public class StartMenu : MonoBehaviour
         botao = document.rootVisualElement.Q<Button>("ExitButton");
         botao.RegisterCallback<ClickEvent>(onExit);
     }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            SceneManager.LoadScene("BoatDeck");
+        }
+    }
     void onPlay(ClickEvent evt)
     {
         SceneManager.LoadScene("MainGame");

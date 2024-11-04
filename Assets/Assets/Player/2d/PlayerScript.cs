@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Xml.Linq;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -24,6 +26,7 @@ public class PlayerScript : MonoBehaviour
     public LayerMask enemies;
     public Animator anim;
     public GameObject Slash;
+    public GameObject DeathScreen;
     private void Awake()
     {
         healthbar = FindObjectOfType<Healthbar>();
@@ -65,11 +68,9 @@ public class PlayerScript : MonoBehaviour
         }
 
 
-
         if(Input.GetKeyDown(KeyCode.L)) 
         {
-            Debug.Log("Health" + playerHealth);
-            Debug.Log("Stamina" + playerStamina);
+            SceneManager.LoadScene("BoatDeck");
         }
     }
 
@@ -92,6 +93,8 @@ public class PlayerScript : MonoBehaviour
     private void Die()
     {
         Debug.Log("Player died");
+        Time.timeScale = 0f;
+        DeathScreen.SetActive(true);
     }
 
     private IEnumerator PerformAttack()

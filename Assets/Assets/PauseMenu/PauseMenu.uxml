@@ -1,11 +1,8 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:VisualElement name="PauseMenu" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.52);">
-        <ui:Label tabindex="-1" text="Tales of Tails" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" style="font-size: 36px; align-self: center; justify-content: flex-end; align-items: center; position: relative; top: 10%; color: rgb(255, 255, 255); -unity-font-style: bold; -unity-font: url(&quot;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#LegacyRuntime&quot;); -unity-font-definition: initial;" />
-        <ui:VisualElement name="Buttons" style="flex-grow: 1; align-items: center; justify-content: center; align-self: auto;">
-            <ui:Button text="Resume" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ResumeButton" style="position: relative; width: 50%; max-width: 50%; align-self: center; justify-content: flex-end; align-items: center; bottom: auto;" />
-            <ui:Button text="Options" parse-escape-sequences="true" display-tooltip-when-elided="true" name="OptionsButton" style="bottom: auto; width: 50%; max-width: 50%;" />
-            <ui:Button text="Main Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MainButton" style="bottom: auto; max-width: 50%; width: 50%;" />
-            <ui:Button text="Exit Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitButton" style="max-width: 50%; width: 50%;" />
-        </ui:VisualElement>
+    <ui:VisualElement name="PauseMenu" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.52); align-self: auto; justify-content: center;">
+        <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/TailOntailsTitle.png?fileID=2800000&amp;guid=6619afb8925254640b4464ddff603e25&amp;type=3#TailOntailsTitle&quot;); min-width: 345px; min-height: 50px; max-width: 1035px; max-height: 150px; align-self: center; width: 517.5px; height: 75px; align-items: center; justify-content: center;" />
+        <ui:Button text="Resume" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ResumeButton" style="position: relative; width: 50%; max-width: 50%; align-self: center; justify-content: flex-end; align-items: center; bottom: auto;" />
+        <ui:Button text="Main Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MainButton" style="bottom: auto; max-width: 50%; width: 50%; align-self: center; justify-content: flex-end; align-items: center;" />
+        <ui:Button text="Exit Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitButton" style="max-width: 50%; width: 50%; align-self: center; justify-content: flex-end; align-items: center;" />
     </ui:VisualElement>
 </ui:UXML>
